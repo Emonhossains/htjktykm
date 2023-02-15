@@ -1,0 +1,159 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.container{
+	max-width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.header .menu{
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.header .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.header .menu li a{
+	display: block;
+	margin: 10px 0px 0px 20px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #0A2252;
+}
+.header .menu li a:hover{
+	color: #0089FF;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px;
+	text-align: center;
+}
+.banner h1{
+   font-size: 54px;
+   line-height: 1.2em;
+   color: #0A2252;
+}
+.banner h1 span{
+   color: #088CFF;
+}
+.banner p{
+   font-size: 14px;
+   line-height: 1.7em;
+   color:  #0A2252;
+   margin: 0px 0px 10px;
+}
+.banner .banner-img{
+   width: 55%;
+   margin: 10px 0px 0px;
+}
+.successfull{
+	width: 100%;
+	padding: 70px 0px 40px;
+	float: left;
+}
+.successfull-left{
+   width: 100%;
+   float: left;
+   color: #F15767;
+   text-align: right;
+}
+.successfull-left h1{
+   font-size: 54px;
+   line-height: 1.2em;
+   margin: 0px 15px 10px 0px;
+}
+.successfull-left p{
+   font-size: 14px;
+   line-height: 1.7em;
+   color:  #0A2252;
+   margin: 0px 15px 0px 0px
+}
+.successfull-right{
+   width: 100%;
+   float: left;
+}
+.successfull-right h1{
+	font-size: 54px;
+	line-height: 1.2em;
+	color: #45577C;
+    margin: 0px 0px 0px 15px
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 80px;
+}
+.inner-feature{
+	width: 75%;
+	float: left;
+	padding: 60px 40px;
+	margin: 0px 15px;
+}
+.inner-feature img{
+	width: 100%;
+    height: 175px;
+    margin: 0px 0px 10px;
+}
+.inner-feature h4{
+   font-size: 18px;
+   line-height: 1.2em;
+   margin: 0px 0px 10px;
+   color:  #0A2252;
+}
+.inner-feature p{
+   font-size: 14px;
+   line-height: 1.7em;
+   color:  #0A2252;
+}
+.bg1{
+   background: #FDEBED;
+}
+.bg2{
+   background: #EBF9F4;
+}
+.bg3{
+   background: #FFF7E8;
+}
